@@ -15,7 +15,7 @@ This project is an expense management system that consists of a Streamlit Fronte
 
 1. **clone the repository**:
 ```bash
-git clone https://test.com
+git clone https://github.com/shivududeshi/expense-management-system.git
 cd expense-management-system
 ```
 2. **Install dependencies:**:
