@@ -2,7 +2,7 @@
 
 This project is an expense management system that consists of a Streamlit Frontend application and a FastAPI backend server.
 
-##Project Structure
+## Project Structure
 
 **frontend/**: Contains the Streamlit application code.
 **backend/**: Contains the FastAPI backend server code.
@@ -11,7 +11,7 @@ This project is an expense management system that consists of a Streamlit Fronte
 **README.md/**: Provides an overview and instructions for the project.
 
 
-##Setup Instructions
+## Setup Instructions
 
 1. **clone the repository**:
 ```bash
