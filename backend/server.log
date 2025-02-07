@@ -1,0 +1,55 @@
+2025-02-05 11:53:10,843 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-28
+2025-02-05 11:53:36,758 - db_helper - INFO - delete_expenses_for_date called with 2024-08-28
+2025-02-05 11:53:36,772 - db_helper - INFO - insert_expense called with date: 2024-08-28,amount:1227.0,category:Rent,notes:Monthly rent payment
+2025-02-05 11:53:36,784 - db_helper - INFO - insert_expense called with date: 2024-08-28,amount:300.0,category:Food,notes:Groceries for the week
+2025-02-05 22:12:08,373 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:26:30,903 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:26:44,247 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:28:07,711 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:28:21,766 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:38:07,958 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:40:18,951 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 22:40:39,609 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 23:54:44,162 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 23:55:36,660 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-05 23:56:14,115 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-07
+2025-02-05 23:56:18,371 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-02
+2025-02-05 23:56:24,862 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-03
+2025-02-05 23:56:32,719 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-06
+2025-02-06 00:05:16,380 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-06
+2025-02-06 00:05:24,591 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 00:05:32,448 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-02
+2025-02-06 00:05:41,964 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-06
+2025-02-06 00:06:45,094 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-07
+2025-02-06 00:07:45,315 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-07
+2025-02-06 00:08:32,587 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-07
+2025-02-06 00:08:32,628 - db_helper - INFO - delete_expenses_for_date called with 2024-08-07
+2025-02-06 00:08:32,640 - db_helper - INFO - insert_expense called with date: 2024-08-07,amount:20.0,category:Food,notes:pakoda
+2025-02-06 00:08:32,657 - db_helper - INFO - insert_expense called with date: 2024-08-07,amount:40.0,category:Shopping,notes:ought hair oil
+2025-02-06 00:08:32,674 - db_helper - INFO - insert_expense called with date: 2024-08-07,amount:50.0,category:Entertainment,notes:play chess on internet
+2025-02-06 00:08:38,345 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 00:08:41,674 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 00:08:48,033 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-07
+2025-02-06 11:22:50,964 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:04:28,828 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:06:31,784 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:12:32,648 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:12:36,595 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:12:36,645 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:13:17,683 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:13:17,718 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:20:43,426 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:20:45,998 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:20:46,054 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:23:25,918 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:23:25,954 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:23:27,279 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:23:27,364 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:24:05,207 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:24:07,214 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:24:07,262 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:24:45,148 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:24:45,181 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
+2025-02-06 12:30:07,733 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:30:11,930 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-02-06 12:30:11,987 - db_helper - INFO - fetch_expense_summary called with start:2024-08-01,end:2024-08-05
