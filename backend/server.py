@@ -16,6 +16,10 @@ class DateRange(BaseModel):
     start_date: date
     end_date: date
 
+class Expense_Monthwise(BaseModel):
+    total_expense: float
+    month: str
+
 
 @app.get("/expenses/{expense_date}",response_model=List[Expense])
 def get_expenses(expense_date: date):
@@ -47,3 +51,11 @@ def get_analytics(date_range: DateRange):
             "percentage":percentage
         }
     return breakdown
+
+@app.get("/expenses/monthwise/{expense_year}",response_model=List[Expense_Monthwise])
+def get_expenses(expense_year: int):
+    expenses=db_helper.fetch_expenses_by_month(expense_year)
+    if expenses is None:
+        raise HTTPException(status_code=500,detail="Failed to retrive monthwise expenses from the database")
+    return expenses
+

@@ -83,7 +83,22 @@ def fetch_expense_summary(start_date,end_date):
             )
         expenses=curser.fetchall()
         return expenses
-
+        
+def fetch_expenses_by_month(year):
+    logger.info(f"fetch_expenses_by_month called with year:{year}")
+    with get_db_curser() as curser:
+        curser.execute(
+            '''SELECT 
+                DATE_FORMAT(expense_date, '%Y-%m') AS month,
+                SUM(amount) AS total_expense
+                FROM expenses
+                WHERE YEAR(expense_date) = %s
+                GROUP BY month
+                ORDER BY month;''', 
+                (year,)
+        )
+        expenses=curser.fetchall()
+        return expenses
 
 if __name__=="__main__":
     #fetch_all_records()
@@ -95,6 +110,8 @@ if __name__=="__main__":
     # delete_expenses_for_date("2024-08-20")
     # print("***again fetch expenses for 8/20***")
     # fetch_expenses_for_date("2024-08-20")
-    summary=fetch_expense_summary("2024-08-01","2024-08-05")
-    for record in summary:
-        print(record)
+    # summary=fetch_expense_summary("2024-08-01","2024-08-05")
+    # for record in summary:
+    #     print(record)
+    expenses=fetch_expenses_by_month(2024)
+    print(expenses)
